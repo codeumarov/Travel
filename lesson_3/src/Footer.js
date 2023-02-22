@@ -22,41 +22,48 @@ function Footer() {
               <div>Explore</div>
             </div>
             <div className="paragrapx">Continually productize compelling dome packed with all Elated utilize website and creating supply next-generation</div>
-            <div>Follow Us On:</div>
-            <div>
+            <div className="par">Follow Us On:</div>
+            <div className="imgaes">
               <img src={Twitter}></img>
-              <img src={Beance}></img>
+              <img id="m" src={Beance}></img>
               <img src={Ins}></img>
-              <img src={Vim}></img>
+              <img id="m"src={Vim}></img>
               <img src={Vector4}></img>
             </div>
           </div>
           <div className='footer_Cart'>
             <div className="footer_titles">Tour Type</div>
-            <div>
+            <div id="text">
               Adventure Tours Grouo Tour Seasonal Tours Relaxation Toure Family Friendly Tour
             </div>
           </div>
              <div className='footer_Cart'>
                <div className='footer_titles'>Contact info</div>
                <div className='footer_tel'>
-                 <div><img src={tel}></img></div>
+                 <div><img id="tel_img" src={tel}></img></div>
+                 <div>88130-589-745-6987 <div>+1655-456-523 </div></div>
+               </div>
+               <div className='footer_tel tell_2'>
+                 <div id="tel_img"><img src={clock}></img></div>
                  <div>88130-589-745-6987 <div>+1655-456-523 </div></div>
                </div>
                <div className='footer_tel'>
-                 <div><img src={clock}></img></div>
-                 <div>88130-589-745-6987 <div>+1655-456-523 </div></div>
-               </div>
-               <div className='footer_tel'>
-                 <div><img src={manzil}></img></div>
+                 <div><img id="tel_img" src={manzil}></img></div>
                  <div>88130-589-745-6987 <div>+1655-456-523 </div></div>
                </div>
              </div>
              <div className='footer_Cart'>
             <div className="footer_titles">Gallery</div>
-            <div>
-               <div></div>
-            </div>
+            <div className="left">
+               <div id="carts">hello</div>
+               <div id="carts">hello</div>
+               <div id="carts">hello</div>
+            </div> 
+            <div className="left">
+               <div id="carts">hello</div>
+               <div id="carts">hello</div>
+               <div id="carts">hello</div>
+            </div> 
           </div>
         </div>
       </div>

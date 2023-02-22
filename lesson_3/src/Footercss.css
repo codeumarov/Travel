@@ -18,6 +18,7 @@
 
 .footer_title {
   display: flex;
+  margin-top: 65px;
 }
 
 .footer_title>div {
@@ -29,6 +30,80 @@
 
 }
 
-.footer_title > img{
+.footer_title>img {
   margin-right: 13px;
+  margin-bottom: 18px;
+}
+
+.paragrapx {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 33px;
+}
+
+.par {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.imgaes {
+  margin-top: 20px;
+}
+
+#m {
+  margin: 0 10px;
+}
+
+.footer_titles{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+
+#text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  width: 150px;
+}
+
+.tell_2{
+  margin: 25px 0;
+}
+.footer_tel{
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+
+#tel_img{
+  margin-top: 10px;
+}
+
+.left{
+  display: flex;
+  gap: 10px;
+  column-gap: 10px;
+}
+
+#carts{
+  width: 97px;
+  height: 100px;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  
 }
